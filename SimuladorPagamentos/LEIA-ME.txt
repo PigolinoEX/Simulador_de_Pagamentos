@@ -1,0 +1,18 @@
+SIMULADOR DE PAGAMENTOS (Java 8 + Swing) - projeto Eclipse
+
+Como abrir no Eclipse
+1. Extraia o zip (ex.: C:\Projetos\SimuladorPagamentosEclipse).
+2. Eclipse: File > Import > General > Existing Projects into Workspace > Next.
+3. Em "Select root directory", escolha a pasta extraida > Finish.
+4. Se aparecer erro de JRE: botao direito no projeto > Properties >
+   Java Build Path > Libraries > JRE System Library > Edit... >
+   escolha "Execution environment: JavaSE-1.8" (ou "Alternate JRE" com seu JDK 8).
+5. Abra src/Main.java > botao direito > Run As > Java Application
+   (ou Ctrl+F11).
+
+Dados de teste
+- Saldo inicial: R$ 5.000,00
+- Senha do cartao (debito e credito): 1234
+- Limite de credito: R$ 100.000,00
+- Botao "Depositar" adiciona saldo para testes
+Tudo e simulacao em memoria; nada e salvo ao fechar.
